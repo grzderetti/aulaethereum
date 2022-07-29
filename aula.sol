@@ -6,7 +6,7 @@ contract Aula {
     string public timeDoCoracao;
 
     constructor() {
-        timeDoCoracao = "SPFC";
+        timeDoCoracao = "Botafogo";
     }
 
     function mudarTime(string memory _novoTimeDoCoracao) public returns (bool, uint8) {
